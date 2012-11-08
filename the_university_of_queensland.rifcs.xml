@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<registryObjects xmlns="http://ands.org.au/standards/rif-cs/registryObjects">
+<registryObjects xmlns="http://ands.org.au/standards/rif-cs/registryObjects"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/1.3/schema/registryObjects.xsd">
   <registryObject group="The University of Queensland">
     <key>http://uq.edu.au/</key>
     <originatingSource>http://github.com/uq-eresearch/rifcs-examples</originatingSource>
@@ -24,17 +26,21 @@
             <addressPart type="addressLine">Australia</addressPart>
             <addressPart type="telephoneNumber">+61 (7) 3365 1111</addressPart>
           </physical>
-          <spatial type="kmlPolyCoords">153.0133,-27.4978,30</spatial>
+        </address>
+        <address>
           <electronic type="email">
             <value>communications@uq.edu.au</value>
           </electronic>
+        </address>
+        <address>
           <electronic type="url">
             <value>http://www.uq.edu.au/</value>
           </electronic>
         </address>
+        <spatial type="kmlPolyCoords">153.0133,-27.4978,30</spatial>
       </location>
       <existenceDates>
-        <startDate type="W3CDTF">1909-12-10</startDate>
+        <startDate dateFormat="W3CDTF">1909-12-10</startDate>
       </existenceDates>
       <relatedInfo type="website">
         <identifier type="uri">http://www.uq.edu.au/about/</identifier>
