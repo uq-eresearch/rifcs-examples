@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registryObjects xmlns="http://ands.org.au/standards/rif-cs/registryObjects">
+  <registryObject group="The University of Queensland">
+    <key>http://uq.edu.au/</key>
+    <originatingSource>http://github.com/uq-eresearch/rifcs-examples</originatingSource>
+    <party type="group">
+      <identifier type="uri">http://uq.edu.au/</identifier>
+      <identifier type="AU-ANL:PEAU">http://nla.gov.au/nla.party-460867</identifier>
+      <identifier type="abn">63 942 912 684</identifier>
+      <name type="primary">
+        <namePart>The University of Queensland</namePart>
+      </name>
+      <name type="abbreviated">
+        <namePart>UQ</namePart>
+      </name>
+      <description type="brief">
+      The University of Queensland (UQ) is one of Australia's premier learning and research institutions.
+      </description>
+      <location>
+        <address>
+          <physical type="postalAddress">
+            <addressPart type="addressLine">The University of Queensland</addressPart>
+            <addressPart type="addressLine">Brisbane QLD 4072</addressPart>
+            <addressPart type="addressLine">Australia</addressPart>
+            <addressPart type="telephoneNumber">+61 (7) 3365 1111</addressPart>
+          </physical>
+          <spatial type="kmlPolyCoords">153.0133,-27.4978,30</spatial>
+          <electronic type="email">
+            <value>communications@uq.edu.au</value>
+          </electronic>
+          <electronic type="url">
+            <value>http://www.uq.edu.au/</value>
+          </electronic>
+        </address>
+      </location>
+      <existenceDates>
+        <startDate type="W3CDTF">1909-12-10</startDate>
+      </existenceDates>
+      <relatedInfo type="website">
+        <identifier type="uri">http://www.uq.edu.au/about/</identifier>
+        <title>About UQ</title>
+      </relatedInfo>
+    </party>
+  </registryObject>
+</registryObjects>
