@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registryObjects xmlns="http://ands.org.au/standards/rif-cs/registryObjects"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://ands.org.au/standards/rif-cs/registryObjects http://services.ands.org.au/documentation/rifcs/1.3/schema/registryObjects.xsd">
+  <registryObject group="The University of Queensland">
+    <key>urn:uuid:9b5b32a0-3441-11e2-81c1-0800200c9a66</key>
+    <originatingSource>http://github.com/uq-eresearch/rifcs-examples</originatingSource>
+    <service type="report">
+      <identifier type="uri">http://dimer.uq.edu.au/</identifier>
+      <name type="primary">
+        <namePart>Diffraction Image Experiment Repository</namePart>
+      </name>
+      <name type="abbreviated">
+        <namePart>DIMER</namePart>
+      </name>
+      <description type="brief">
+      The Diffraction Image Experiment Repository (DIMER) is an online archive for raw diffraction images. It provides a secure online indexed storage of the images, prior to analysis, structure determination and publication. It also makes them accessible so they can be linked to from publications, searched by researchers, and integrated into other online databases.
+      </description>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://dimer.uq.edu.au/</value>
+          </electronic>
+        </address>
+      </location>
+      <existenceDates>
+        <startDate dateFormat="W3CDTF">2008</startDate>
+      </existenceDates>
+      <relatedInfo type="website">
+        <identifier type="uri">http://itee.uq.edu.au/~eresearch/projects/crystallography/dimer</identifier>
+        <title>About DIMER</title>
+      </relatedInfo>
+      <relatedObject>
+        <key>urn:uuid:1d3b60a0-3443-11e2-81c1-0800200c9a66</key>
+        <relation type="hasPart"/>
+      </relatedObject>
+      <relatedObject>
+        <key>urn:uuid:9b5b32a1-3441-11e2-81c1-0800200c9a66</key>
+        <relation type="isFundedBy"/>
+      </relatedObject>
+    </service>
+  </registryObject>
+    <registryObject group="The University of Queensland">
+    <key>urn:uuid:1d3b60a0-3443-11e2-81c1-0800200c9a66</key>
+    <originatingSource>http://github.com/uq-eresearch/rifcs-examples</originatingSource>
+    <service type="syndicate-atom">
+      <name type="primary">
+        <namePart>DIMER Atom Feed</namePart>
+      </name>
+      <location>
+        <address>
+          <electronic type="url">
+            <value>http://dimer.uq.edu.au/dataspace.atom</value>
+          </electronic>
+        </address>
+      </location>
+      <relatedObject>
+        <key>urn:uuid:9b5b32a0-3441-11e2-81c1-0800200c9a66</key>
+        <relation type="isPartOf"/>
+      </relatedObject>
+    </service>
+  </registryObject>
+  <registryObject group="The University of Queensland">
+    <key>urn:uuid:9b5b32a1-3441-11e2-81c1-0800200c9a66</key>
+    <originatingSource>http://github.com/uq-eresearch/rifcs-examples</originatingSource>
+    <activity type="project">
+      <identifier type="purl">http://purl.org/au-research/grants/arc/DP0770465</identifier>
+      <name type="primary">
+        <namePart>Macrophage proteins: structure, function and e-science</namePart>
+      </name>
+    </activity>
+  </registryObject>
+</registryObjects>
+
+
